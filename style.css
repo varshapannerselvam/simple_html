@@ -1,0 +1,45 @@
+body {
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,#004080,#0080ff);
+    color: white;
+}
+
+table{
+    background-origin: padding-box;
+    padding: 10px;
+    border:black;
+    background: linear-gradient(to right,#004080,#0080ff);
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    td {
+        display: block;
+        padding: 10px;
+    }
+
+    img {
+        width: 90%;
+    }
+}
+footer{
+    background-color: black;
+    size: cover;
+    height: auto;
+}
